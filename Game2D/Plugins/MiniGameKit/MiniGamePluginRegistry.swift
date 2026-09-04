@@ -4,6 +4,8 @@ import Foundation
 ///
 /// Registration happens at app launch:
 /// ```
+/// import TicTacToe
+/// registry.register(TicTacToePlugin())
 /// registry.register(UnityMiniGamePlugin(sceneName: "OrbitRun"))
 /// ```
 final class MiniGamePluginRegistry {
