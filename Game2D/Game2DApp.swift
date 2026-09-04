@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct Game2DApp: App {
+    @StateObject private var themeController: ThemeController
+
+    init() {
+        _themeController = StateObject(wrappedValue: DependencyContainer.shared.makeThemeController())
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(themeController)
         }
     }
 }
