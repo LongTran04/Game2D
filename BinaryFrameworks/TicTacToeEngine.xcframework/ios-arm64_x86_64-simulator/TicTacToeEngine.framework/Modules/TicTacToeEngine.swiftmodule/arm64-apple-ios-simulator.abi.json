@@ -1,0 +1,1847 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TicTacToeEngine",
+    "printedName": "TicTacToeEngine",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineSettings",
+        "printedName": "GameEngineSettings",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Appearance",
+            "printedName": "Appearance",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "light",
+                "printedName": "light",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TicTacToeEngine.GameEngineSettings.Appearance.Type) -> TicTacToeEngine.GameEngineSettings.Appearance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TicTacToeEngine.GameEngineSettings.Appearance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Appearance",
+                            "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                            "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO5lightyA2EmF",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10AppearanceO5lightyA2EmF",
+                "moduleName": "TicTacToeEngine"
+              },
+              {
+                "kind": "Var",
+                "name": "dark",
+                "printedName": "dark",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TicTacToeEngine.GameEngineSettings.Appearance.Type) -> TicTacToeEngine.GameEngineSettings.Appearance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TicTacToeEngine.GameEngineSettings.Appearance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Appearance",
+                            "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                            "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO4darkyA2EmF",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10AppearanceO4darkyA2EmF",
+                "moduleName": "TicTacToeEngine"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TicTacToeEngine.GameEngineSettings.Appearance?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO8rawValueAESgSS_tcfc",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10AppearanceO8rawValueAESgSS_tcfc",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO8rawValueSSvp",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10AppearanceO8rawValueSSvp",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO8rawValueSSvg",
+                    "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10AppearanceO8rawValueSSvg",
+                    "moduleName": "TicTacToeEngine",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10AppearanceO",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "soundEnabled",
+            "printedName": "soundEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV12soundEnabledSbvp",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV12soundEnabledSbvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV12soundEnabledSbvg",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV12soundEnabledSbvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "musicEnabled",
+            "printedName": "musicEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV12musicEnabledSbvp",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV12musicEnabledSbvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV12musicEnabledSbvg",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV12musicEnabledSbvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hapticsEnabled",
+            "printedName": "hapticsEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV14hapticsEnabledSbvp",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV14hapticsEnabledSbvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV14hapticsEnabledSbvg",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV14hapticsEnabledSbvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV10appearanceAC10AppearanceOvp",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10appearanceAC10AppearanceOvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                    "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10appearanceAC10AppearanceOvg",
+                "mangledName": "$s15TicTacToeEngine04GameD8SettingsV10appearanceAC10AppearanceOvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(soundEnabled:musicEnabled:hapticsEnabled:appearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "TicTacToeEngine.GameEngineSettings",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "TicTacToeEngine.GameEngineSettings.Appearance",
+                "hasDefaultArg": true,
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV10AppearanceO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV12soundEnabled05musicH007hapticsH010appearanceACSb_S2bAC10AppearanceOtcfc",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV12soundEnabled05musicH007hapticsH010appearanceACSb_S2bAC10AppearanceOtcfc",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "TicTacToeEngine.GameEngineSettings",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "TicTacToeEngine.GameEngineSettings",
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TicTacToeEngine04GameD8SettingsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15TicTacToeEngine04GameD8SettingsV2eeoiySbAC_ACtFZ",
+            "moduleName": "TicTacToeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15TicTacToeEngine04GameD8SettingsV",
+        "mangledName": "$s15TicTacToeEngine04GameD8SettingsV",
+        "moduleName": "TicTacToeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineHostEvent",
+        "printedName": "GameEngineHostEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineHostEvent.Type) -> TicTacToeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                    "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                        "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD9HostEventO5startyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD9HostEventO5startyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "pause",
+            "printedName": "pause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineHostEvent.Type) -> TicTacToeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                    "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                        "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD9HostEventO5pauseyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD9HostEventO5pauseyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "resume",
+            "printedName": "resume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineHostEvent.Type) -> TicTacToeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                    "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                        "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD9HostEventO6resumeyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD9HostEventO6resumeyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "stop",
+            "printedName": "stop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineHostEvent.Type) -> TicTacToeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                    "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                        "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD9HostEventO4stopyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD9HostEventO4stopyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "setting",
+            "printedName": "setting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineHostEvent.Type) -> (TicTacToeEngine.GameEngineSettings) -> TicTacToeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TicTacToeEngine.GameEngineSettings) -> TicTacToeEngine.GameEngineHostEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                        "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineSettings",
+                        "printedName": "TicTacToeEngine.GameEngineSettings",
+                        "usr": "s:15TicTacToeEngine04GameD8SettingsV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                        "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD9HostEventO7settingyAcA0eD8SettingsVcACmF",
+            "mangledName": "$s15TicTacToeEngine04GameD9HostEventO7settingyAcA0eD8SettingsVcACmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineHostEvent",
+                "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineHostEvent",
+                "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TicTacToeEngine04GameD9HostEventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15TicTacToeEngine04GameD9HostEventO2eeoiySbAC_ACtFZ",
+            "moduleName": "TicTacToeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15TicTacToeEngine04GameD9HostEventO",
+        "mangledName": "$s15TicTacToeEngine04GameD9HostEventO",
+        "moduleName": "TicTacToeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineResult",
+        "printedName": "GameEngineResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "score",
+            "printedName": "score",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD6ResultV5scoreSiSgvp",
+            "mangledName": "$s15TicTacToeEngine04GameD6ResultV5scoreSiSgvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD6ResultV5scoreSiSgvg",
+                "mangledName": "$s15TicTacToeEngine04GameD6ResultV5scoreSiSgvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "level",
+            "printedName": "level",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD6ResultV5levelSiSgvp",
+            "mangledName": "$s15TicTacToeEngine04GameD6ResultV5levelSiSgvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD6ResultV5levelSiSgvg",
+                "mangledName": "$s15TicTacToeEngine04GameD6ResultV5levelSiSgvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15TicTacToeEngine04GameD6ResultV8durationSdSgvp",
+            "mangledName": "$s15TicTacToeEngine04GameD6ResultV8durationSdSgvp",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15TicTacToeEngine04GameD6ResultV8durationSdSgvg",
+                "mangledName": "$s15TicTacToeEngine04GameD6ResultV8durationSdSgvg",
+                "moduleName": "TicTacToeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(score:level:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "TicTacToeEngine.GameEngineResult",
+                "usr": "s:15TicTacToeEngine04GameD6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15TicTacToeEngine04GameD6ResultV5score5level8durationACSiSg_AGSdSgtcfc",
+            "mangledName": "$s15TicTacToeEngine04GameD6ResultV5score5level8durationACSiSg_AGSdSgtcfc",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "TicTacToeEngine.GameEngineResult",
+                "usr": "s:15TicTacToeEngine04GameD6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "TicTacToeEngine.GameEngineResult",
+                "usr": "s:15TicTacToeEngine04GameD6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TicTacToeEngine04GameD6ResultV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15TicTacToeEngine04GameD6ResultV2eeoiySbAC_ACtFZ",
+            "moduleName": "TicTacToeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15TicTacToeEngine04GameD6ResultV",
+        "mangledName": "$s15TicTacToeEngine04GameD6ResultV",
+        "moduleName": "TicTacToeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineEvent",
+        "printedName": "GameEngineEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO5readyyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO5readyyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO7startedyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO7startedyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO6pausedyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO6pausedyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "resumed",
+            "printedName": "resumed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO7resumedyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO7resumedyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "stopped",
+            "printedName": "stopped",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO7stoppedyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO7stoppedyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> (TicTacToeEngine.GameEngineResult) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TicTacToeEngine.GameEngineResult) -> TicTacToeEngine.GameEngineEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineResult",
+                        "printedName": "TicTacToeEngine.GameEngineResult",
+                        "usr": "s:15TicTacToeEngine04GameD6ResultV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO6resultyAcA0eD6ResultVcACmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO6resultyAcA0eD6ResultVcACmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "settingRequested",
+            "printedName": "settingRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO16settingRequestedyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO16settingRequestedyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "exitRequested",
+            "printedName": "exitRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent.Type) -> TicTacToeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TicTacToeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "TicTacToeEngine.GameEngineEvent",
+                        "usr": "s:15TicTacToeEngine04GameD5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15TicTacToeEngine04GameD5EventO13exitRequestedyA2CmF",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO13exitRequestedyA2CmF",
+            "moduleName": "TicTacToeEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineEvent",
+                "printedName": "TicTacToeEngine.GameEngineEvent",
+                "usr": "s:15TicTacToeEngine04GameD5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineEvent",
+                "printedName": "TicTacToeEngine.GameEngineEvent",
+                "usr": "s:15TicTacToeEngine04GameD5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TicTacToeEngine04GameD5EventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15TicTacToeEngine04GameD5EventO2eeoiySbAC_ACtFZ",
+            "moduleName": "TicTacToeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15TicTacToeEngine04GameD5EventO",
+        "mangledName": "$s15TicTacToeEngine04GameD5EventO",
+        "moduleName": "TicTacToeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TicTacToeGameEngine",
+        "printedName": "TicTacToeGameEngine",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(settings:hostEvents:onEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TicTacToeGameEngine",
+                "printedName": "TicTacToeEngine.TicTacToeGameEngine",
+                "usr": "s:15TicTacToeEngine0abc4GameD0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "TicTacToeEngine.GameEngineSettings",
+                "hasDefaultArg": true,
+                "usr": "s:15TicTacToeEngine04GameD8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<TicTacToeEngine.GameEngineHostEvent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "TicTacToeEngine.GameEngineHostEvent",
+                    "usr": "s:15TicTacToeEngine04GameD9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TicTacToeEngine.GameEngineEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "TicTacToeEngine.GameEngineEvent",
+                    "usr": "s:15TicTacToeEngine04GameD5EventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15TicTacToeEngine0abc4GameD0C8settings10hostEvents7onEventAcA0eD8SettingsV_7Combine12AnyPublisherVyAA0ed4HostJ0Os5NeverOGyAA0edJ0Octcfc",
+            "mangledName": "$s15TicTacToeEngine0abc4GameD0C8settings10hostEvents7onEventAcA0eD8SettingsV_7Combine12AnyPublisherVyAA0ed4HostJ0Os5NeverOGyAA0edJ0Octcfc",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeViewController",
+            "printedName": "makeViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15TicTacToeEngine0abc4GameD0C18makeViewControllerSo06UIViewH0CyF",
+            "mangledName": "$s15TicTacToeEngine0abc4GameD0C18makeViewControllerSo06UIViewH0CyF",
+            "moduleName": "TicTacToeEngine",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15TicTacToeEngine0abc4GameD0C",
+        "mangledName": "$s15TicTacToeEngine0abc4GameD0C",
+        "moduleName": "TicTacToeEngine",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TicTacToeEngine"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1091,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeSession.swift",
+      "kind": "Array",
+      "offset": 1186,
+      "length": 118,
+      "value": "[[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeViewModel.swift",
+      "kind": "Array",
+      "offset": 710,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeViewModel.swift",
+      "kind": "Array",
+      "offset": 830,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1045,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1099,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/TicTacToeEngine\/Sources\/TicTacToeEngine\/TicTacToeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2743,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

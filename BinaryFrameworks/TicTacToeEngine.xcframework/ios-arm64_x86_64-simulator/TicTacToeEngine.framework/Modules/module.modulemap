@@ -1,0 +1,4 @@
+framework module TicTacToeEngine {
+  header "TicTacToeEngine-Swift.h"
+  requires objc
+}

@@ -1,0 +1,4 @@
+framework module SnakeEngine {
+  header "SnakeEngine-Swift.h"
+  requires objc
+}

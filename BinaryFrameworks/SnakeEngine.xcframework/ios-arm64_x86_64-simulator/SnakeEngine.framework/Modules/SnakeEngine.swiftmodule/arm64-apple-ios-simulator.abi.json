@@ -1,0 +1,2120 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SnakeEngine",
+    "printedName": "SnakeEngine",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineSettings",
+        "printedName": "GameEngineSettings",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Appearance",
+            "printedName": "Appearance",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "light",
+                "printedName": "light",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnakeEngine.GameEngineSettings.Appearance.Type) -> SnakeEngine.GameEngineSettings.Appearance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SnakeEngine.GameEngineSettings.Appearance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Appearance",
+                            "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                            "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO5lightyA2EmF",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV10AppearanceO5lightyA2EmF",
+                "moduleName": "SnakeEngine"
+              },
+              {
+                "kind": "Var",
+                "name": "dark",
+                "printedName": "dark",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnakeEngine.GameEngineSettings.Appearance.Type) -> SnakeEngine.GameEngineSettings.Appearance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SnakeEngine.GameEngineSettings.Appearance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Appearance",
+                            "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                            "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO4darkyA2EmF",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV10AppearanceO4darkyA2EmF",
+                "moduleName": "SnakeEngine"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SnakeEngine.GameEngineSettings.Appearance?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV10AppearanceO8rawValueAESgSS_tcfc",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO8rawValueSSvp",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV10AppearanceO8rawValueSSvp",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO8rawValueSSvg",
+                    "mangledName": "$s11SnakeEngine04GameB8SettingsV10AppearanceO8rawValueSSvg",
+                    "moduleName": "SnakeEngine",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV10AppearanceO",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "soundEnabled",
+            "printedName": "soundEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB8SettingsV12soundEnabledSbvp",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV12soundEnabledSbvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB8SettingsV12soundEnabledSbvg",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV12soundEnabledSbvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "musicEnabled",
+            "printedName": "musicEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB8SettingsV12musicEnabledSbvp",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV12musicEnabledSbvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB8SettingsV12musicEnabledSbvg",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV12musicEnabledSbvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hapticsEnabled",
+            "printedName": "hapticsEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB8SettingsV14hapticsEnabledSbvp",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV14hapticsEnabledSbvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB8SettingsV14hapticsEnabledSbvg",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV14hapticsEnabledSbvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB8SettingsV10appearanceAC10AppearanceOvp",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV10appearanceAC10AppearanceOvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                    "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB8SettingsV10appearanceAC10AppearanceOvg",
+                "mangledName": "$s11SnakeEngine04GameB8SettingsV10appearanceAC10AppearanceOvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(soundEnabled:musicEnabled:hapticsEnabled:appearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "SnakeEngine.GameEngineSettings",
+                "usr": "s:11SnakeEngine04GameB8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "SnakeEngine.GameEngineSettings.Appearance",
+                "hasDefaultArg": true,
+                "usr": "s:11SnakeEngine04GameB8SettingsV10AppearanceO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnakeEngine04GameB8SettingsV12soundEnabled05musicF007hapticsF010appearanceACSb_S2bAC10AppearanceOtcfc",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV12soundEnabled05musicF007hapticsF010appearanceACSb_S2bAC10AppearanceOtcfc",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "SnakeEngine.GameEngineSettings",
+                "usr": "s:11SnakeEngine04GameB8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "SnakeEngine.GameEngineSettings",
+                "usr": "s:11SnakeEngine04GameB8SettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnakeEngine04GameB8SettingsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11SnakeEngine04GameB8SettingsV2eeoiySbAC_ACtFZ",
+            "moduleName": "SnakeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnakeEngine04GameB8SettingsV",
+        "mangledName": "$s11SnakeEngine04GameB8SettingsV",
+        "moduleName": "SnakeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineHostEvent",
+        "printedName": "GameEngineHostEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineHostEvent.Type) -> SnakeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "SnakeEngine.GameEngineHostEvent",
+                    "usr": "s:11SnakeEngine04GameB9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "SnakeEngine.GameEngineHostEvent",
+                        "usr": "s:11SnakeEngine04GameB9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB9HostEventO5startyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB9HostEventO5startyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "pause",
+            "printedName": "pause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineHostEvent.Type) -> SnakeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "SnakeEngine.GameEngineHostEvent",
+                    "usr": "s:11SnakeEngine04GameB9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "SnakeEngine.GameEngineHostEvent",
+                        "usr": "s:11SnakeEngine04GameB9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB9HostEventO5pauseyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB9HostEventO5pauseyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "resume",
+            "printedName": "resume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineHostEvent.Type) -> SnakeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "SnakeEngine.GameEngineHostEvent",
+                    "usr": "s:11SnakeEngine04GameB9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "SnakeEngine.GameEngineHostEvent",
+                        "usr": "s:11SnakeEngine04GameB9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB9HostEventO6resumeyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB9HostEventO6resumeyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "stop",
+            "printedName": "stop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineHostEvent.Type) -> SnakeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "SnakeEngine.GameEngineHostEvent",
+                    "usr": "s:11SnakeEngine04GameB9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "SnakeEngine.GameEngineHostEvent",
+                        "usr": "s:11SnakeEngine04GameB9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB9HostEventO4stopyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB9HostEventO4stopyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "setting",
+            "printedName": "setting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineHostEvent.Type) -> (SnakeEngine.GameEngineSettings) -> SnakeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnakeEngine.GameEngineSettings) -> SnakeEngine.GameEngineHostEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "SnakeEngine.GameEngineHostEvent",
+                        "usr": "s:11SnakeEngine04GameB9HostEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineSettings",
+                        "printedName": "SnakeEngine.GameEngineSettings",
+                        "usr": "s:11SnakeEngine04GameB8SettingsV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "SnakeEngine.GameEngineHostEvent",
+                        "usr": "s:11SnakeEngine04GameB9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB9HostEventO7settingyAcA0cB8SettingsVcACmF",
+            "mangledName": "$s11SnakeEngine04GameB9HostEventO7settingyAcA0cB8SettingsVcACmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineHostEvent",
+                "printedName": "SnakeEngine.GameEngineHostEvent",
+                "usr": "s:11SnakeEngine04GameB9HostEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineHostEvent",
+                "printedName": "SnakeEngine.GameEngineHostEvent",
+                "usr": "s:11SnakeEngine04GameB9HostEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnakeEngine04GameB9HostEventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11SnakeEngine04GameB9HostEventO2eeoiySbAC_ACtFZ",
+            "moduleName": "SnakeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SnakeEngine04GameB9HostEventO",
+        "mangledName": "$s11SnakeEngine04GameB9HostEventO",
+        "moduleName": "SnakeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineResult",
+        "printedName": "GameEngineResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "score",
+            "printedName": "score",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB6ResultV5scoreSiSgvp",
+            "mangledName": "$s11SnakeEngine04GameB6ResultV5scoreSiSgvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB6ResultV5scoreSiSgvg",
+                "mangledName": "$s11SnakeEngine04GameB6ResultV5scoreSiSgvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "level",
+            "printedName": "level",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB6ResultV5levelSiSgvp",
+            "mangledName": "$s11SnakeEngine04GameB6ResultV5levelSiSgvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB6ResultV5levelSiSgvg",
+                "mangledName": "$s11SnakeEngine04GameB6ResultV5levelSiSgvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SnakeEngine04GameB6ResultV8durationSdSgvp",
+            "mangledName": "$s11SnakeEngine04GameB6ResultV8durationSdSgvp",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SnakeEngine04GameB6ResultV8durationSdSgvg",
+                "mangledName": "$s11SnakeEngine04GameB6ResultV8durationSdSgvg",
+                "moduleName": "SnakeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(score:level:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "SnakeEngine.GameEngineResult",
+                "usr": "s:11SnakeEngine04GameB6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnakeEngine04GameB6ResultV5score5level8durationACSiSg_AGSdSgtcfc",
+            "mangledName": "$s11SnakeEngine04GameB6ResultV5score5level8durationACSiSg_AGSdSgtcfc",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "SnakeEngine.GameEngineResult",
+                "usr": "s:11SnakeEngine04GameB6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "SnakeEngine.GameEngineResult",
+                "usr": "s:11SnakeEngine04GameB6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnakeEngine04GameB6ResultV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11SnakeEngine04GameB6ResultV2eeoiySbAC_ACtFZ",
+            "moduleName": "SnakeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11SnakeEngine04GameB6ResultV",
+        "mangledName": "$s11SnakeEngine04GameB6ResultV",
+        "moduleName": "SnakeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineEvent",
+        "printedName": "GameEngineEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO5readyyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO5readyyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO7startedyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO7startedyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO6pausedyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO6pausedyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "resumed",
+            "printedName": "resumed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO7resumedyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO7resumedyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "stopped",
+            "printedName": "stopped",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO7stoppedyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO7stoppedyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> (SnakeEngine.GameEngineResult) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SnakeEngine.GameEngineResult) -> SnakeEngine.GameEngineEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineResult",
+                        "printedName": "SnakeEngine.GameEngineResult",
+                        "usr": "s:11SnakeEngine04GameB6ResultV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO6resultyAcA0cB6ResultVcACmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO6resultyAcA0cB6ResultVcACmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "settingRequested",
+            "printedName": "settingRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO16settingRequestedyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO16settingRequestedyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "exitRequested",
+            "printedName": "exitRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent.Type) -> SnakeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SnakeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "SnakeEngine.GameEngineEvent",
+                        "usr": "s:11SnakeEngine04GameB5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SnakeEngine04GameB5EventO13exitRequestedyA2CmF",
+            "mangledName": "$s11SnakeEngine04GameB5EventO13exitRequestedyA2CmF",
+            "moduleName": "SnakeEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineEvent",
+                "printedName": "SnakeEngine.GameEngineEvent",
+                "usr": "s:11SnakeEngine04GameB5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineEvent",
+                "printedName": "SnakeEngine.GameEngineEvent",
+                "usr": "s:11SnakeEngine04GameB5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnakeEngine04GameB5EventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11SnakeEngine04GameB5EventO2eeoiySbAC_ACtFZ",
+            "moduleName": "SnakeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SnakeEngine04GameB5EventO",
+        "mangledName": "$s11SnakeEngine04GameB5EventO",
+        "moduleName": "SnakeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SnakeGameEngine",
+        "printedName": "SnakeGameEngine",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(settings:hostEvents:onEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SnakeGameEngine",
+                "printedName": "SnakeEngine.SnakeGameEngine",
+                "usr": "s:11SnakeEngine0a4GameB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "SnakeEngine.GameEngineSettings",
+                "hasDefaultArg": true,
+                "usr": "s:11SnakeEngine04GameB8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<SnakeEngine.GameEngineHostEvent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "SnakeEngine.GameEngineHostEvent",
+                    "usr": "s:11SnakeEngine04GameB9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SnakeEngine.GameEngineEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "SnakeEngine.GameEngineEvent",
+                    "usr": "s:11SnakeEngine04GameB5EventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SnakeEngine0a4GameB0C8settings10hostEvents7onEventAcA0cB8SettingsV_7Combine12AnyPublisherVyAA0cb4HostH0Os5NeverOGyAA0cbH0Octcfc",
+            "mangledName": "$s11SnakeEngine0a4GameB0C8settings10hostEvents7onEventAcA0cB8SettingsV_7Combine12AnyPublisherVyAA0cb4HostH0Os5NeverOGyAA0cbH0Octcfc",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeViewController",
+            "printedName": "makeViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SnakeEngine0a4GameB0C18makeViewControllerSo06UIViewF0CyF",
+            "mangledName": "$s11SnakeEngine0a4GameB0C18makeViewControllerSo06UIViewF0CyF",
+            "moduleName": "SnakeEngine",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11SnakeEngine0a4GameB0C",
+        "mangledName": "$s11SnakeEngine0a4GameB0C",
+        "moduleName": "SnakeEngine",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SnakeEngine"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 536,
+      "length": 4,
+      "value": "0.20"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 571,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 612,
+      "length": 5,
+      "value": "0.012"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 648,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/GameEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 771,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/Nodes\/SnakeNode.swift",
+      "kind": "Array",
+      "offset": 92,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/Nodes\/SnakeNode.swift",
+      "kind": "Array",
+      "offset": 137,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/Nodes\/SnakeNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 214,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakePalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1366,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakeScene.swift",
+      "kind": "BooleanLiteral",
+      "offset": 365,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakeScene.swift",
+      "kind": "BooleanLiteral",
+      "offset": 402,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakeScene.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Game\/SnakeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Presentation\/SnakeControlPanelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Presentation\/SnakeControlPanelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/Services\/SnakeHighScoreStore.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 24,
+      "value": "\"game2d.snake.highScore\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/ViewModels\/SnakeViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 653,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/ViewModels\/SnakeViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 699,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/ViewModels\/SnakeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/ViewModels\/SnakeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1249,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/SnakeEngine\/Sources\/SnakeEngine\/ViewModels\/SnakeViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7583,
+      "length": 2,
+      "value": "24"
+    }
+  ]
+}

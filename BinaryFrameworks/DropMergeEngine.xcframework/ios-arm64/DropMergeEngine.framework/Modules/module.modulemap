@@ -1,0 +1,4 @@
+framework module DropMergeEngine {
+  header "DropMergeEngine-Swift.h"
+  requires objc
+}

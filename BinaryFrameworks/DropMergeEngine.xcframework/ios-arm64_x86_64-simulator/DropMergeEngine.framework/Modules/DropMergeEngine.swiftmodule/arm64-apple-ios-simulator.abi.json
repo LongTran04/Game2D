@@ -1,0 +1,2694 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DropMergeEngine",
+    "printedName": "DropMergeEngine",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DropMergeGameEngine",
+        "printedName": "DropMergeGameEngine",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(settings:hostEvents:onEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DropMergeGameEngine",
+                "printedName": "DropMergeEngine.DropMergeGameEngine",
+                "usr": "s:15DropMergeEngine0ab4GameC0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "DropMergeEngine.GameEngineSettings",
+                "hasDefaultArg": true,
+                "usr": "s:15DropMergeEngine04GameC8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<DropMergeEngine.GameEngineHostEvent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent",
+                    "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DropMergeEngine0ab4GameC0C8settings10hostEvents7onEventAcA0dC8SettingsV_7Combine12AnyPublisherVyAA0dc4HostI0Os5NeverOGyAA0dcI0Octcfc",
+            "mangledName": "$s15DropMergeEngine0ab4GameC0C8settings10hostEvents7onEventAcA0dC8SettingsV_7Combine12AnyPublisherVyAA0dc4HostI0Os5NeverOGyAA0dcI0Octcfc",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeViewController",
+            "printedName": "makeViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DropMergeEngine0ab4GameC0C18makeViewControllerSo06UIViewG0CyF",
+            "mangledName": "$s15DropMergeEngine0ab4GameC0C18makeViewControllerSo06UIViewG0CyF",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15DropMergeEngine0ab4GameC0C",
+        "mangledName": "$s15DropMergeEngine0ab4GameC0C",
+        "moduleName": "DropMergeEngine",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineSettings",
+        "printedName": "GameEngineSettings",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Appearance",
+            "printedName": "Appearance",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "light",
+                "printedName": "light",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DropMergeEngine.GameEngineSettings.Appearance.Type) -> DropMergeEngine.GameEngineSettings.Appearance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DropMergeEngine.GameEngineSettings.Appearance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Appearance",
+                            "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                            "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO5lightyA2EmF",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV10AppearanceO5lightyA2EmF",
+                "moduleName": "DropMergeEngine"
+              },
+              {
+                "kind": "Var",
+                "name": "dark",
+                "printedName": "dark",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DropMergeEngine.GameEngineSettings.Appearance.Type) -> DropMergeEngine.GameEngineSettings.Appearance",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DropMergeEngine.GameEngineSettings.Appearance.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Appearance",
+                            "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                            "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO4darkyA2EmF",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV10AppearanceO4darkyA2EmF",
+                "moduleName": "DropMergeEngine"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DropMergeEngine.GameEngineSettings.Appearance?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Appearance",
+                        "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                        "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO8rawValueAESgSS_tcfc",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV10AppearanceO8rawValueAESgSS_tcfc",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO8rawValueSSvp",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV10AppearanceO8rawValueSSvp",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO8rawValueSSvg",
+                    "mangledName": "$s15DropMergeEngine04GameC8SettingsV10AppearanceO8rawValueSSvg",
+                    "moduleName": "DropMergeEngine",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV10AppearanceO",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "soundEnabled",
+            "printedName": "soundEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV12soundEnabledSbvp",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV12soundEnabledSbvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV12soundEnabledSbvg",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV12soundEnabledSbvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "musicEnabled",
+            "printedName": "musicEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV12musicEnabledSbvp",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV12musicEnabledSbvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV12musicEnabledSbvg",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV12musicEnabledSbvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hapticsEnabled",
+            "printedName": "hapticsEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV14hapticsEnabledSbvp",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV14hapticsEnabledSbvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV14hapticsEnabledSbvg",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV14hapticsEnabledSbvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV10appearanceAC10AppearanceOvp",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV10appearanceAC10AppearanceOvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Appearance",
+                    "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                    "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10appearanceAC10AppearanceOvg",
+                "mangledName": "$s15DropMergeEngine04GameC8SettingsV10appearanceAC10AppearanceOvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(soundEnabled:musicEnabled:hapticsEnabled:appearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "DropMergeEngine.GameEngineSettings",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Appearance",
+                "printedName": "DropMergeEngine.GameEngineSettings.Appearance",
+                "hasDefaultArg": true,
+                "usr": "s:15DropMergeEngine04GameC8SettingsV10AppearanceO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV12soundEnabled05musicG007hapticsG010appearanceACSb_S2bAC10AppearanceOtcfc",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV12soundEnabled05musicG007hapticsG010appearanceACSb_S2bAC10AppearanceOtcfc",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "DropMergeEngine.GameEngineSettings",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineSettings",
+                "printedName": "DropMergeEngine.GameEngineSettings",
+                "usr": "s:15DropMergeEngine04GameC8SettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DropMergeEngine04GameC8SettingsV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15DropMergeEngine04GameC8SettingsV2eeoiySbAC_ACtFZ",
+            "moduleName": "DropMergeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15DropMergeEngine04GameC8SettingsV",
+        "mangledName": "$s15DropMergeEngine04GameC8SettingsV",
+        "moduleName": "DropMergeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineHostEvent",
+        "printedName": "GameEngineHostEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineHostEvent.Type) -> DropMergeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent",
+                    "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "DropMergeEngine.GameEngineHostEvent",
+                        "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC9HostEventO5startyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC9HostEventO5startyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "pause",
+            "printedName": "pause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineHostEvent.Type) -> DropMergeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent",
+                    "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "DropMergeEngine.GameEngineHostEvent",
+                        "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC9HostEventO5pauseyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC9HostEventO5pauseyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "resume",
+            "printedName": "resume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineHostEvent.Type) -> DropMergeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent",
+                    "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "DropMergeEngine.GameEngineHostEvent",
+                        "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC9HostEventO6resumeyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC9HostEventO6resumeyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "stop",
+            "printedName": "stop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineHostEvent.Type) -> DropMergeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineHostEvent",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent",
+                    "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "DropMergeEngine.GameEngineHostEvent",
+                        "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC9HostEventO4stopyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC9HostEventO4stopyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "setting",
+            "printedName": "setting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineHostEvent.Type) -> (DropMergeEngine.GameEngineSettings) -> DropMergeEngine.GameEngineHostEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DropMergeEngine.GameEngineSettings) -> DropMergeEngine.GameEngineHostEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "DropMergeEngine.GameEngineHostEvent",
+                        "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineSettings",
+                        "printedName": "DropMergeEngine.GameEngineSettings",
+                        "usr": "s:15DropMergeEngine04GameC8SettingsV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineHostEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineHostEvent",
+                        "printedName": "DropMergeEngine.GameEngineHostEvent",
+                        "usr": "s:15DropMergeEngine04GameC9HostEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC9HostEventO7settingyAcA0dC8SettingsVcACmF",
+            "mangledName": "$s15DropMergeEngine04GameC9HostEventO7settingyAcA0dC8SettingsVcACmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineHostEvent",
+                "printedName": "DropMergeEngine.GameEngineHostEvent",
+                "usr": "s:15DropMergeEngine04GameC9HostEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineHostEvent",
+                "printedName": "DropMergeEngine.GameEngineHostEvent",
+                "usr": "s:15DropMergeEngine04GameC9HostEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DropMergeEngine04GameC9HostEventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15DropMergeEngine04GameC9HostEventO2eeoiySbAC_ACtFZ",
+            "moduleName": "DropMergeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15DropMergeEngine04GameC9HostEventO",
+        "mangledName": "$s15DropMergeEngine04GameC9HostEventO",
+        "moduleName": "DropMergeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineResult",
+        "printedName": "GameEngineResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "score",
+            "printedName": "score",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC6ResultV5scoreSiSgvp",
+            "mangledName": "$s15DropMergeEngine04GameC6ResultV5scoreSiSgvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC6ResultV5scoreSiSgvg",
+                "mangledName": "$s15DropMergeEngine04GameC6ResultV5scoreSiSgvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "level",
+            "printedName": "level",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC6ResultV5levelSiSgvp",
+            "mangledName": "$s15DropMergeEngine04GameC6ResultV5levelSiSgvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC6ResultV5levelSiSgvg",
+                "mangledName": "$s15DropMergeEngine04GameC6ResultV5levelSiSgvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DropMergeEngine04GameC6ResultV8durationSdSgvp",
+            "mangledName": "$s15DropMergeEngine04GameC6ResultV8durationSdSgvp",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DropMergeEngine04GameC6ResultV8durationSdSgvg",
+                "mangledName": "$s15DropMergeEngine04GameC6ResultV8durationSdSgvg",
+                "moduleName": "DropMergeEngine",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(score:level:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "DropMergeEngine.GameEngineResult",
+                "usr": "s:15DropMergeEngine04GameC6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15DropMergeEngine04GameC6ResultV5score5level8durationACSiSg_AGSdSgtcfc",
+            "mangledName": "$s15DropMergeEngine04GameC6ResultV5score5level8durationACSiSg_AGSdSgtcfc",
+            "moduleName": "DropMergeEngine",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "DropMergeEngine.GameEngineResult",
+                "usr": "s:15DropMergeEngine04GameC6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineResult",
+                "printedName": "DropMergeEngine.GameEngineResult",
+                "usr": "s:15DropMergeEngine04GameC6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DropMergeEngine04GameC6ResultV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15DropMergeEngine04GameC6ResultV2eeoiySbAC_ACtFZ",
+            "moduleName": "DropMergeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15DropMergeEngine04GameC6ResultV",
+        "mangledName": "$s15DropMergeEngine04GameC6ResultV",
+        "moduleName": "DropMergeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GameEngineEvent",
+        "printedName": "GameEngineEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO5readyyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO5readyyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO7startedyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO7startedyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO6pausedyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO6pausedyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "resumed",
+            "printedName": "resumed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO7resumedyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO7resumedyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "stopped",
+            "printedName": "stopped",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO7stoppedyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO7stoppedyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> (DropMergeEngine.GameEngineResult) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DropMergeEngine.GameEngineResult) -> DropMergeEngine.GameEngineEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineResult",
+                        "printedName": "DropMergeEngine.GameEngineResult",
+                        "usr": "s:15DropMergeEngine04GameC6ResultV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO6resultyAcA0dC6ResultVcACmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO6resultyAcA0dC6ResultVcACmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "settingRequested",
+            "printedName": "settingRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO16settingRequestedyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO16settingRequestedyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Var",
+            "name": "exitRequested",
+            "printedName": "exitRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DropMergeEngine.GameEngineEvent.Type) -> DropMergeEngine.GameEngineEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GameEngineEvent",
+                    "printedName": "DropMergeEngine.GameEngineEvent",
+                    "usr": "s:15DropMergeEngine04GameC5EventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DropMergeEngine.GameEngineEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GameEngineEvent",
+                        "printedName": "DropMergeEngine.GameEngineEvent",
+                        "usr": "s:15DropMergeEngine04GameC5EventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15DropMergeEngine04GameC5EventO13exitRequestedyA2CmF",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO13exitRequestedyA2CmF",
+            "moduleName": "DropMergeEngine"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineEvent",
+                "printedName": "DropMergeEngine.GameEngineEvent",
+                "usr": "s:15DropMergeEngine04GameC5EventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GameEngineEvent",
+                "printedName": "DropMergeEngine.GameEngineEvent",
+                "usr": "s:15DropMergeEngine04GameC5EventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DropMergeEngine04GameC5EventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15DropMergeEngine04GameC5EventO2eeoiySbAC_ACtFZ",
+            "moduleName": "DropMergeEngine",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15DropMergeEngine04GameC5EventO",
+        "mangledName": "$s15DropMergeEngine04GameC5EventO",
+        "moduleName": "DropMergeEngine",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "SpriteKit",
+        "printedName": "SpriteKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DropMergeEngine"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 5,
+      "value": "\"Orb\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 8,
+      "value": "0x7BDFF2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 13,
+      "value": "\"circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 298,
+      "length": 4,
+      "value": "0.55"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 7,
+      "value": "\"Shard\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 8,
+      "value": "0x70D6FF"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 15,
+      "value": "\"triangle.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 429,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 6,
+      "value": "\"Cube\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 8,
+      "value": "0x48BFE3"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 13,
+      "value": "\"square.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 556,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 5,
+      "value": "\"Gem\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 8,
+      "value": "0x5E60CE"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 14,
+      "value": "\"diamond.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 683,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 718,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 7,
+      "value": "\"Penta\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 744,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 8,
+      "value": "0x9B5DE5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 15,
+      "value": "\"pentagon.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 814,
+      "length": 4,
+      "value": "1.35"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 6,
+      "value": "\"Hexa\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 875,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 8,
+      "value": "0xC77DFF"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 14,
+      "value": "\"hexagon.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 934,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 944,
+      "length": 4,
+      "value": "1.65"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 6,
+      "value": "\"Octa\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1005,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1019,
+      "length": 8,
+      "value": "0xF15BB5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 14,
+      "value": "\"octagon.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1064,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 1074,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1109,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 7,
+      "value": "\"Crest\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1135,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1149,
+      "length": 8,
+      "value": "0xFF7096"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1171,
+      "length": 11,
+      "value": "\"seal.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1191,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 1202,
+      "length": 3,
+      "value": "2.4"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1237,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 6,
+      "value": "\"Star\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1262,
+      "length": 2,
+      "value": "82"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1276,
+      "length": 8,
+      "value": "0xF4D35E"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 11,
+      "value": "\"star.fill\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 1329,
+      "length": 3,
+      "value": "2.9"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1364,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 6,
+      "value": "\"Nova\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1390,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1404,
+      "length": 8,
+      "value": "0xFF9F1C"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 10,
+      "value": "\"sparkles\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1445,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "FloatLiteral",
+      "offset": 1456,
+      "length": 3,
+      "value": "3.5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/MergeCatalog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1534,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Domain\/ScoreRules.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/DropMergeViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/DropMergeViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/DropMergeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1248,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/DropMergeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1321,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/GameEngineContract.swift",
+      "kind": "BooleanLiteral",
+      "offset": 438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/Services\/HighScoreStore.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 29,
+      "value": "\"game2d.drop-merge.highScore\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropController.swift",
+      "kind": "Array",
+      "offset": 187,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "Array",
+      "offset": 484,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "FloatLiteral",
+      "offset": 768,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "BooleanLiteral",
+      "offset": 847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "BooleanLiteral",
+      "offset": 882,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "BooleanLiteral",
+      "offset": 913,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "IntegerLiteral",
+      "offset": 988,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/DropMergeScene.swift",
+      "kind": "FloatLiteral",
+      "offset": 13758,
+      "length": 4,
+      "value": "1.35"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/GameOverDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 134,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/GameOverDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 187,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/GameOverDetector.swift",
+      "kind": "Dictionary",
+      "offset": 237,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/GameOverDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeCoordinator.swift",
+      "kind": "Array",
+      "offset": 244,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 486,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeItemNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 167,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeItemNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeItemNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeItemNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeItemNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 416,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/MergeItemNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3090,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/PhysicsCategory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 72,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/PhysicsCategory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 104,
+      "length": 3,
+      "value": "0b1"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/PhysicsCategory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 138,
+      "length": 4,
+      "value": "0b10"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/IOSProject\/Game2D\/PrivateGameProjects\/DropMergeEngine\/Sources\/DropMergeEngine\/SpriteKit\/PhysicsCategory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 181,
+      "length": 5,
+      "value": "0b100"
+    }
+  ]
+}

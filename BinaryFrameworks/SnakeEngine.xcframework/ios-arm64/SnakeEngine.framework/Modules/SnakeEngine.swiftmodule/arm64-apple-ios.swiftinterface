@@ -1,0 +1,70 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SnakeEngine
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AudioToolbox
+import Combine
+import Foundation
+import SpriteKit
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _SpriteKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct GameEngineSettings : Swift.Equatable, Swift.Sendable {
+  public enum Appearance : Swift.String, Swift.Equatable, Swift.Sendable {
+    case light
+    case dark
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let soundEnabled: Swift.Bool
+  public let musicEnabled: Swift.Bool
+  public let hapticsEnabled: Swift.Bool
+  public let appearance: SnakeEngine.GameEngineSettings.Appearance
+  public init(soundEnabled: Swift.Bool = true, musicEnabled: Swift.Bool = true, hapticsEnabled: Swift.Bool = true, appearance: SnakeEngine.GameEngineSettings.Appearance = .light)
+  public static func == (a: SnakeEngine.GameEngineSettings, b: SnakeEngine.GameEngineSettings) -> Swift.Bool
+}
+public enum GameEngineHostEvent : Swift.Equatable, Swift.Sendable {
+  case start
+  case pause
+  case resume
+  case stop
+  case setting(SnakeEngine.GameEngineSettings)
+  public static func == (a: SnakeEngine.GameEngineHostEvent, b: SnakeEngine.GameEngineHostEvent) -> Swift.Bool
+}
+public struct GameEngineResult : Swift.Equatable, Swift.Sendable {
+  public let score: Swift.Int?
+  public let level: Swift.Int?
+  public let duration: Foundation.TimeInterval?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(score: Swift.Int? = nil, level: Swift.Int? = nil, duration: Foundation.TimeInterval? = nil)
+  #endif
+  public static func == (a: SnakeEngine.GameEngineResult, b: SnakeEngine.GameEngineResult) -> Swift.Bool
+}
+public enum GameEngineEvent : Swift.Equatable, Swift.Sendable {
+  case ready
+  case started
+  case paused
+  case resumed
+  case stopped
+  case result(SnakeEngine.GameEngineResult)
+  case settingRequested
+  case exitRequested
+  public static func == (a: SnakeEngine.GameEngineEvent, b: SnakeEngine.GameEngineEvent) -> Swift.Bool
+}
+@_Concurrency.MainActor final public class SnakeGameEngine {
+  @_Concurrency.MainActor public init(settings: SnakeEngine.GameEngineSettings = GameEngineSettings(), hostEvents: Combine.AnyPublisher<SnakeEngine.GameEngineHostEvent, Swift.Never>, onEvent: @escaping (SnakeEngine.GameEngineEvent) -> Swift.Void)
+  @_Concurrency.MainActor final public func makeViewController() -> UIKit.UIViewController
+  @objc deinit
+}
+extension SnakeEngine.GameEngineSettings.Appearance : Swift.Hashable {}
+extension SnakeEngine.GameEngineSettings.Appearance : Swift.RawRepresentable {}
+extension SnakeEngine.SnakeGameEngine : Swift.Sendable {}

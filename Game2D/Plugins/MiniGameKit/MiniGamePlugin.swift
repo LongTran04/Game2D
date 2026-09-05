@@ -18,7 +18,7 @@ protocol MiniGamePlugin: AnyObject {
 }
 
 /// Commands the host sends into a running mini-game.
-enum MiniGameHostEvent: Equatable {
+nonisolated enum MiniGameHostEvent: Equatable {
     case start
     case pause
     case resume
@@ -27,7 +27,7 @@ enum MiniGameHostEvent: Equatable {
 }
 
 /// Events a mini-game emits back to the host.
-enum MiniGamePluginEvent: Equatable {
+nonisolated enum MiniGamePluginEvent: Equatable {
     case ready
     case started
     case paused
@@ -38,7 +38,7 @@ enum MiniGamePluginEvent: Equatable {
     case exitRequested
 }
 
-struct MiniGameResult: Equatable {
+nonisolated struct MiniGameResult: Equatable {
     let score: Int?
     let level: Int?
     let duration: TimeInterval?
