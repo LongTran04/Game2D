@@ -28,6 +28,7 @@ final class DependencyContainer {
 
 	func registerBundledPlugins() {
 		pluginRegistry.register(TicTacToePlugin())
+		pluginRegistry.register(DropMergePlugin())
     }
 
     func makeGetSettingsUseCase() -> GetSettingsUseCase {
